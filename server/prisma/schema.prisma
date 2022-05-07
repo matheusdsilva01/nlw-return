@@ -12,7 +12,7 @@ model Feedback {
 
   type  String 
   comment String
-  screenshot String? @db.VarChar(1000)
+  screenshot String? @db.VarChar(65535)
 
   @@map("feedbacks")
 }
