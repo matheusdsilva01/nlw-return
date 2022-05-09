@@ -28,9 +28,9 @@ export class SubmitFeedbackUseCase {
             throw new Error("Invalid screenshot format")
         }
         await this.feedbacksRepositories.create({
-            type,
-            comment,
-            screenshot
+            type: type,
+            comment: comment,
+            screenshot: screenshot
         })
 
         await this.mailAdapter.sendMail({
