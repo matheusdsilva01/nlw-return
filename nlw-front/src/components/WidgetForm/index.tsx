@@ -55,7 +55,7 @@ export function WidgetForm() {
                 </>
             )}
             <footer className='text-xs text-neutral-400'>
-                Feito com ♥ pela <a className='underline underline-offset-2' href="#">Rocketseat</a>
+                Feito com ♥ por <a className='underline underline-offset-2' href="https://linktr.ee/Matheusdsilva">Matheus Silva</a>
             </footer>
         </div>
     )
